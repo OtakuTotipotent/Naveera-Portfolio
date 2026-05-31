@@ -151,9 +151,9 @@ body {
 /* Portfolio Grid */
 .portfolio-grid { columns: 3; column-gap: 20px; }
 .work-item { margin-bottom: 20px; break-inside: avoid; border-radius: 12px; overflow: hidden; transition: 0.4s; display: block; position: relative;}
-.work-item img { width: 100%; filter: grayscale(1); transition: 0.4s; }
+.work-item img { width: 100%;  transition: 0.4s; }
 .work-item:hover img { filter: grayscale(0); transform: scale(1.05); }
-
+.hov-eff img { filter: grayscale(1); }
 /* Contact Form */
 .form-group { position: relative; margin-bottom: 30px; }
 .form-group input, .form-group textarea {
